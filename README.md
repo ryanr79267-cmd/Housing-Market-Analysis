@@ -1,2 +1,2 @@
 # Redfin-Housing-Market-Analysis
-End-to-end SQL cleaning and Power BI dashboard to uncover real estate trends throughout the year
+This project analyzes the housing market trends, over the past decade, to identify the shift in price, affordability, and availability throughout the US using MS SQL Server, Power BI, and SSRS Report Builder.  
