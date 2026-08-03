@@ -4,9 +4,9 @@ This project analyzes the housing market trends, over the past decade, to identi
 
 ## Data Source
 
--[Redfin](https://www.redfin.com/news/data-center/downloads/)
--Time Period : 1/1/2012 - 5/1/2024
--Geography type : Neighborhood
+- [Redfin](https://www.redfin.com/news/data-center/downloads/)
+- Time Period : 1/1/2012 - 5/1/2024
+- Geography type : Neighborhood
 
 ## Tools Used
 
