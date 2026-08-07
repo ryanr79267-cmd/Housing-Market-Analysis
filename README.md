@@ -18,7 +18,21 @@ This project aims to display housing trends across the United States, ranging fr
 
 ## Data Understanding
 
-- Median Sale Price
+- `PERIOD_BEGIN` : The beginning start date of the 90 day period.
+- `REGION` : The region in which the home is located.
+- `CITY` : The city in which the home is located.
+- `STATE` : The state in which the home is located.
+- `PROPERTY_TYPE` : The type of property a home is classified as.
+- `MEDIAN_SALE-PRICE` : The median final sale price of homes that closed during a given time period.
+- `MEDIAN_SALE_PRICE_YOY` : The growth of the median sale price.
+- `TOTAL_HOMES_SOLD` : The total sum of closed home sales during a given period. A home is counted based on the date the sale closed–not the date it went under contract.
+- `TOTAL_HOMES_SOLD_YOY` : The growth of total homes sold.
+- `TOTAL_NEW_LISTING` : The total sum of homes newly listed for sale during a given period. A home is counted when it appears as available for sale
+- `NEW_LISTINGS_YOY` : The growth of total new listings.
+- `TOTAL_HOMES_AVAILABLE` : The total sum of homes available for sale on the final day of a given period. This represents an end-of-period snapshot, differentiating it from “active listings,” which captures the total number of homes that were for sale at any point in the period. Homes on the market for more than one year are excluded.
+- `INVENTORY_YOY` : The growth of total homes available.
+- `MEDIAN_DOM` : For homes that went under contract during a given period, the median number of days they were listed for before going under contract. Homes on the market for more than one year are excluded.
+- `MEDIAN_DOM_YOY` : The growth of median days on market.
 
 ## Methodology
 
