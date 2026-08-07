@@ -2,7 +2,7 @@
 This repository tracks housing market trends, over the past decade, to identify shift in price, liquidity, and availability throughout the US using MS SQL Server, Power BI, and SSRS Report Builder.
 
 ## Overview
-This project aims to display housing trends across the United States, ranging from state to neighborhood, to allow investors to indicate price changes, market liquidity, and housing availability between the years 2012-2024. The data is made available by Redfin, but must be cleaned and prepared for consumption in SQL before 
+This project aims to display housing trends across the United States, ranging from state to neighborhood, to allow investors to indicate price changes, market liquidity, and housing availability between the years 2012-2024. The data is made available by Redfin
 
 ## Data Source
 
@@ -34,26 +34,36 @@ This project aims to display housing trends across the United States, ranging fr
 - `MEDIAN_DOM` : For homes that went under contract during a given period, the median number of days they were listed for before going under contract. Homes on the market for more than one year are excluded.
 - `MEDIAN_DOM_YOY` : The growth of median days on market.
 
-## Methodology
-
-### 1. Data Preparation
-- Import raw data into SQL Server as neighborhood_market_tracker
-- Explore data to discover type and length
-- Create a new table as neighborhood_market_tracker_prod with appropriate types and lengths
-- Insert data while turning empty data into nulls in order to produce accurate results while averaging
-
-### 2. Insights & Analysis
-
-### 3. Reporting
-
-## Key Findings
-
+## SQL Query
+* Data preparation
+  * Import raw data into SQL Server as neighborhood_market_tracker
+  * Explore data to discover type and length
+  * Create a new table as neighborhood_market_tracker_prod with appropriate types and lengths
+  * Insert data while turning empty data into nulls in order to produce accurate results while averaging
+* Stored Procedure
+  * Create stored procedure [usp_CEN_HomesSoldByPropertyType_Show](SQL/usp_CEN_HomesSoldByPropertyType_Show.sql)
+  * Create parameters for report type, date, state, and property type
+  * 
 ## Power BI Dashboard
-
+*Features
+  * Interactive map visual that allows state, city, and neighborhood drill-throughs.
+  * Median sale price line graphs per state.
+  * Median days on market line graph per state.
+  * New listings per property type bar chart.
+  * Total homes sold card visual.
+  * Average median sale price card visual.
+  * Median sale price percent growth YOY card visual.
+  * Homes sold percent growth YOY card visual.
+  * New listings percent growth YOU card visual.
+  * Date slicer for filtering between dates.
+  * State slicer for filtering states.
+  * City slicer for filtering cities.
+  * Property type slicer for filtering property types.
 ## SSRS Report
 
 ## Previews
 
 ## Contact
-**LinkedIn:** [Ryan](https://www.linkedin.com/in/ryan-r-275911360/)
+**LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/)
+**Email:** @ryanr79267@gmail.com
 
