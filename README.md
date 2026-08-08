@@ -1,8 +1,8 @@
 # Housing-Market-Trends
-This repository tracks housing market trends, over the past decade, to identify shift in price, liquidity, and availability throughout the US using MS SQL Server, Power BI, and SSRS Report Builder.
+Built to demonstrate an end to end analytics workflow from raw market data preparation to stakeholder ready reporting this project tracks pricing, inventory, liquidity, and geographic market performance throughout the US using MS SQL Server, Power BI, and SSRS Report Builder.
 
 ## Overview
-This project aims to display housing trends across the United States, ranging from state to neighborhood, to allow investors to indicate price changes, market liquidity, and housing availability between the years 2012-2024. The data is made available by Redfin
+Housing markets change quickly. Buyers, sellers, investors, and business leaders need a reliable way to monitor market conditions and identify changes before they become obvious. This project aims to display housing trends across the United States, ranging from state to city to neighborhood, allowing investors to indicate price changes, market liquidity, and housing performance between the years 2012-2024.
 
 ## Data Source
 
@@ -12,9 +12,9 @@ This project aims to display housing trends across the United States, ranging fr
 
 ## Tools Used
 
-- Microsoft SQL Server
-- Power BI
-- SSRS Report Builder
+- Microsoft SQL Server for data cleaning, transformation, modeling, stored procedures, and KPI calculations
+- Power BI for interactive dashboards, geographic analysis, drill through reporting
+- SSRS Report Builder for paginated reports for print-ready, parameter driven market summaries
 
 ## Data Understanding
 
@@ -45,7 +45,7 @@ This project aims to display housing trends across the United States, ranging fr
   * Create parameters for report type, date, state, and property type
   * 
 ## Power BI Dashboard
-*Features
+* Features
   * Interactive map visual that allows state, city, and neighborhood drill-throughs.
   * Median sale price line graphs per state.
   * Median days on market line graph per state.
@@ -59,8 +59,16 @@ This project aims to display housing trends across the United States, ranging fr
   * State slicer for filtering states.
   * City slicer for filtering cities.
   * Property type slicer for filtering property types.
+* KPI
+  * Median sale price:
+  * Median days on market: 
 ## SSRS Report
-
+### Summary Report
+* Parameters
+  *
+### Detailed Report
+ * Parameters
+   *
 ## Previews
 
 ## Contact
