@@ -65,10 +65,24 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
 ## SSRS Report
 ### Summary Report
 * Parameters
-  *
+  * `period_begin_year`
+  * `type_of_property`
+  * `report_type`
+* Features
+  * Map displaying total homes sold throughout the U.S.
+  * Parameterized map selection based on year and property type.
+  * Tooltip shows detailed property types sold.
+  * Map hyperlinks to a detailed report based on state clicked.
 ### Detailed Report
  * Parameters
-   *
+   * `period_begin_year`
+   * `period_begin_month`
+   * `state`
+   * `property_type`
+   * `report_type`
+ * Features
+   * Parameterized report with pricing, availability, and listings KPIs.
+   * Highlights YOY decay in red 
 ## Previews
 
 ## Contact
