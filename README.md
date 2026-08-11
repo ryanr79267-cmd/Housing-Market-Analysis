@@ -1,5 +1,15 @@
 # Housing-Market-Trends
 Built to demonstrate an end to end analytics workflow from raw market data preparation to stakeholder ready reporting this project tracks pricing, inventory, liquidity, and geographic market performance throughout the US using MS SQL Server, Power BI, and SSRS Report Builder.
+## Previews
+### Power BI dashboard filtered on Florida and all residential property types between the date of 1/1/24 - 12/31/24.
+<img width="1951" height="1095" alt="image" src="https://github.com/user-attachments/assets/d97a6eb2-a326-483f-9da2-6e827742f19b" />
+
+### Map summary of houses sold in 2024 for all residential property types.
+<img width="1645" height="961" alt="image" src="https://github.com/user-attachments/assets/8a196622-a207-4c4e-b31e-7eccaf009cde" />
+
+### Detailed report of all residential housing data in Florida for June 2024.
+<img width="1563" height="1020" alt="image" src="https://github.com/user-attachments/assets/66d1a01d-28f5-4bdd-926c-1aed878b565c" />
+
 
 ## Overview
 Housing markets change quickly. Buyers, sellers, investors, and business leaders need a reliable way to monitor market conditions and identify changes before they become obvious. This project aims to display housing trends across the United States, ranging from state to city to neighborhood, allowing investors to indicate price changes, market liquidity, and housing performance between the years 2012-2024.
@@ -83,8 +93,6 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
  * Features
    * Parameterized report with pricing, availability, and listings KPIs.
    * Highlights YOY decay in red 
-## Previews
-
 ## Contact
 **LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/)
 **Email:** @ryanr79267@gmail.com
