@@ -46,14 +46,17 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
 
 ## SQL Query
 * Data preparation
-  * Import raw data into SQL Server as neighborhood_market_tracker
-  * Explore data to discover type and length
-  * Create a new table as neighborhood_market_tracker_prod with appropriate types and lengths
-  * Insert data while turning empty data into nulls in order to produce accurate results while averaging
-* Stored Procedure
-  * Create stored procedure [usp_CEN_HomesSoldByPropertyType_Show](SQL/usp_CEN_HomesSoldByPropertyType_Show.sql)
-  * Create parameters for report type, date, state, and property type
-  * 
+  * Import raw data into SQL Server as neighborhood_market_tracker.
+  * Explore data to discover type and length.
+  * Create a new table as neighborhood_market_tracker_prod with appropriate types and lengths.
+  * Insert data while turning empty data into nulls in order to produce accurate results while averaging.
+* Stored Procedure Techniques
+  * Parameter creation for data filtering.
+  * Temporary table for query optimization.
+  * Aggregation by date, property type, and state.
+  * If statement for a summarized or detailed query depending on need.
+  * Pivot table for a clean summarized set.
+  * Case when statements to account for null parameters.
 ## Power BI Dashboard
 * Features
   * Interactive map visual that allows state, city, and neighborhood drill-throughs.
@@ -92,7 +95,7 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
    * `report_type`
  * Features
    * Parameterized report with pricing, availability, and listings KPIs.
-   * Highlights YOY decay in red 
+   * Highlights YOY decay in red.
 ## Contact
 **LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/)
 **Email:** @ryanr79267@gmail.com
