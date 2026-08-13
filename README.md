@@ -95,9 +95,13 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
    * `property_type`
    * `report_type`
  * Features
-   * Parameterized report with pricing, availability, and listings KPIs.
-   * Highlights YOY decay in red.
+   * Parameterized report with month selection.
+   * Highlighted YOY values in red to represent decay.
+   * Median sale price per region, property type, and date.
+   * The amount of homes sold per region, property type, and date.
+   * The amount of homes available per region, property type, and date.
+   * The amount of new listings available per region, property type, and date.
 ## Contact
-**LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/)
-**Email:** @ryanr79267@gmail.com
+- **LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/) 
+- **Email:** ryanr79267@gmail.com
 
