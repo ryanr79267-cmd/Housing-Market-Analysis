@@ -72,9 +72,10 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
   * State slicer for filtering states.
   * City slicer for filtering cities.
   * Property type slicer for filtering property types.
-* KPI
-  * Median sale price:
-  * Median days on market: 
+* Key Insights
+  * California has the highest median sale price.
+  * Hawaii has the highest median days on market.
+  * All residential has the highest new listings.
 ## SSRS Report
 ### Summary Report
 * Parameters
