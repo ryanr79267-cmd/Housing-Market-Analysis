@@ -103,5 +103,5 @@ Housing markets change quickly. Buyers, sellers, investors, and business leaders
    * The amount of new listings available per region, property type, and date.
 ## Contact
 - **LinkedIn:** [Ryan Rodriguez](https://www.linkedin.com/in/ryan-r-275911360/) 
-- **Email:** ryanr79267@gmail.com
+
 
