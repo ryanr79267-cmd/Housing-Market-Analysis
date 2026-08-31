@@ -1,5 +1,5 @@
 USE [RealEstate]
-GO
+GO;
 
 /****** Object:  StoredProcedure [dbo].[usp_CEN_HomesSoldByPropertyType_Show]    Script Date: 8/31/2026 7:14:12 PM ******/
 SET ANSI_NULLS ON
