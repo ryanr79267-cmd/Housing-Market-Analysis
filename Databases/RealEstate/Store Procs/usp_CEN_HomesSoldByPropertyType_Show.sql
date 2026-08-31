@@ -7,6 +7,20 @@ GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+/*************************************************************************************************************************
+
+Author: Ryan R
+
+Date:   8/31/2026
+
+Description:  This stored procedure returns the number of homes sold by property type for a given year.
+
+NOTE:  This stored procedure is used by the CEN Homes Sold By Property Type report in the Real Estate application.
+
+#   Date        Author      Description 
+
+
+************************************************************************************************************************/
 
 
 ALTER PROC [dbo].[usp_CEN_HomesSoldByPropertyType_Show]
